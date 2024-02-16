@@ -2,9 +2,10 @@
 
 int main() {
     int favNum = 0;
-    printf("Please enter your favorite number\n");
-    scanf("%d", &favNum);
+    double secondNum = 0;
+    printf("Please enter your favorite number : ");
+    scanf("%d %lf", &favNum, &secondNum);
 
-    printf("Your favorite number is %d\n",favNum);
+    printf("Your first favorite number is %d and second number is %lf \n",favNum,secondNum);
     return 0;
 }
